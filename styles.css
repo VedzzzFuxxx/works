@@ -1,0 +1,159 @@
+
+
+body{
+	margin: 2%;
+    background-color: #ffffff;
+    font-family: 'Afacad', sans-serif;
+}
+.portfolio{
+	display: flex;
+    justify-content: center;
+	background-color: #ffffff;
+}
+.portfolio h2{
+	text-align: center;
+	color: black;
+	margin: 1.5%;
+	font-size: 50px;
+	
+}
+.portfolio .img{
+	align-items: center;
+	
+}
+
+.container1{
+	margin-bottom: 3%;
+	padding: 15px 0% 0% 15px;
+	
+	border-radius: 25px;
+	
+	background-image:
+    linear-gradient(to bottom, rgba(166, 166, 166, 0.6), rgba(255, 255, 255, 0.73)),
+    url('../img/back.jpg');
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px 0px 10px 50px;	
+	box-shadow:  5px 5px 10px #d9d9d9,
+             -5px -5px 10px #ffffff;
+	
+	width: auto;
+	height: 600px;
+}
+
+.container1 h1{
+	color: #ffffff;
+	margin: 1.5%;
+	font-size: 50px;
+
+		text-shadow: 1px 1px #000000;
+	  
+}
+.container1 h3{
+	color: #ffffff;
+	margin: 1.5%;
+	font-size: 30px;
+	
+}
+.container1 p{
+	color: #ffffff;
+	margin: 1.5% 40% 1.5% 1.5%;
+	font-size: 25px;
+}
+.bolded { font-weight: bold; }
+
+
+.study{
+	display: flex;
+    justify-content: center;
+	background-color: #ffffff;
+}
+.study h2{
+	text-align: center;
+	color: black;
+	margin: 1.5%;
+	font-size: 50px;
+}
+.study .img{
+	align-items: center;
+	
+}
+
+
+.container2 {
+	
+	margin: 1% auto;
+	 display: flex;
+	 width: 90%;
+	 gap: 5%;
+	 flex-wrap: wrap;
+   
+
+	 margin-bottom: 3.80%;
+ }
+ 
+ .container2 .box1 {
+	display: flex;
+	flex-direction: column;
+	width: 325px;
+	height: 375px;
+
+	padding-top: 20px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+	background: #ffffff;
+	box-shadow:  5px 5px 10px #d9d9d9,
+	-5px -5px 10px #ffffff;
+
+ }
+ 
+
+ .container2 .box1 img{
+	 
+	 width: 200px;
+	 height: 200px;
+	 border-radius: 10px;
+	 margin: 0px 0px 15px 0px;
+	
+ }
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 5%;
+    }
+
+    .portfolio h2 {
+        font-size: 30px;
+    }
+
+    .container1 {
+        height: auto;
+    }
+
+    .container1 h1 {
+        font-size: 30px;
+    }
+
+    .container1 h3,
+    .container1 p {
+        font-size: 20px;
+    }
+
+    .container2 .box1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .container2 .box1 img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+ 
+ 
